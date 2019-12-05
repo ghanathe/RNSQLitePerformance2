@@ -91,7 +91,7 @@ export default class HomeScreen extends Component {
                             borderRadius: 16,
                         }}
                         data={this.state.data}
-                        width={Dimensions.get("window").width - 200} // from react-native
+                        width={Dimensions.get("window").width} // from react-native
                         height={220}
                         chartConfig={chartConfig}
                         withVerticalLabels={true}
